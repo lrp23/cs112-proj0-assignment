@@ -1,5 +1,7 @@
+#include <iostream>
+using namespace std;
 
 int main() {
-
-    return 0;
+    int array [20];
+    cout << sizeof(array) <<endl;
 }

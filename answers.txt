@@ -1,7 +1,82 @@
 
 Project 0
-Name:
-Username:
-Student Id:
+Name: Lucas Postuma
+Username: lrp23
+Student Id: 2619023
+
 
 Step 3. -------------------------------------------
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    unsigned BIG_NUMBER = 10000000;
+    string name = "lucas";
+    char first_letter = 'l';
+    double pi = 3.1415;
+    bool open = false;
+    long number = 0
+    return 0;
+}
+
+
+Step 4. ------------------------------------------- 
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    unsigned BIG_NUMBER = 10000000;
+    string name = "lucas";
+    char first_letter = 'l';
+    double pi = 3.1415;
+    bool open = false;
+    long number = 0;
+    cout << &BIG_NUMBER <<endl;
+    cout << &name <<endl;
+    cout << &first_letter <<endl;
+    cout << &pi <<endl;
+    cout << &open <<endl;
+    cout << &number <<endl;
+    return 0;
+}
+
+output:
+0x7ffde23f8f2c
+0x7ffde23f8f40
+l
+0x7ffde23f8f30
+0x7ffde23f8f2b
+0x7ffde23f8f38
+
+
+Step 5. -------------------------------------------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int integer = 37;
+    cout << dec << integer << endl;
+    cout << hex << integer << endl;
+    cout << oct << integer << endl;
+    return 0;
+}
+
+output:
+37
+25
+45
+
+
+Step 6. -------------------------------------------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int array [20];
+    cout << sizeof(array) <<endl;
+}
+
+output:
+80
